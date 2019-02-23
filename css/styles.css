@@ -1,0 +1,176 @@
+
+/************************ TAGS ***************************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  color: #EAF6F6;
+  border-top-width: 5px;
+  width: 4%;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+}
+
+a:hover {
+  transition-duration: 0.4s;
+  color: #11999E;
+}
+
+/************************ CLASSES ************************/
+
+/* CLASSES FOR CONTAINERS */
+
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 120px;
+}
+.middle-container {
+  background-color: white;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+/* CLASSES FOR IMAGES */
+
+.bottom-cloud {
+  position: absolute;
+  left: 280px;
+  top: 500px;
+}
+
+.doge {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.mountain {
+  position: relative;
+  top: 42px;
+}
+
+.square-doge {
+  height: 200px;
+  width: 200px;
+}
+
+/* CLASSES FOR BONUS SPACE */
+
+/* paddings */
+
+.top-padding {
+  padding-top: 50px;
+}
+
+.bottom-padding {
+  padding-bottom: 50px;
+}
+
+.more-bottom-padding {
+  padding-bottom: 100px;
+}
+
+.more-top-padding {
+  padding-top: 100px;
+}
+
+/* margins */
+
+.top-margin {
+  margin-top: 30px;
+}
+
+.bottom-margin {
+  margin-bottom: 30px;
+}
+
+.side-margins {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* CLASSES FOR BUTTON AND SHIT THAT GOES WITH THE BUTTON */
+
+.butn {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  font-family: 'Montserrat', Arial;
+  color: #66BFBF;
+  transition-duration: 0.4s;
+  font-size: 40px;
+  background: white;
+  border: 2px solid #66BFBF;
+  padding: 30px 30px 30px 30px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #66BFBF;
+  color: white;
+  text-decoration: none;
+}
+
+/* CLASSES FOR LINKS */
+
+/* TEXT */
+
+.credit-text {
+  font-size: 0.8rem;
+  color: #11999E;
+  text-align: center;
+}
+
+.first-header {
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  color: #66BFBF;
+  margin: 0 auto;
+}
+
+.first-p {
+  font-size: 2rem;
+  margin: 20px auto 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.last-p {
+  color: #EAF6F6;
+  display: block;
+}
+
+.white-text {
+  color: #40514E;
+}
+
+/* IDK LOL */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+}
